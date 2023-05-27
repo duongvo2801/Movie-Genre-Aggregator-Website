@@ -1,0 +1,163 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+label{
+    margin-bottom: 10px;
+    margin-left: 7px;
+    font-weight: bold;
+}
+strong{
+    color: red;
+}
+.switchTab .tag1{
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+.switchTab .tag2{
+    width: 38%;
+    float: left;
+    text-align: center;
+}
+.switchTab .tag1:hover,.switchTab .tag2:hover{
+    color: #FF4040;
+    font-weight: bolder;
+}
+.buttonSubmit{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: #FFFFE0;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.85;
+}
+.buttonSubmit:hover {
+    opacity:1;  
+}
+
+/* login */
+.login{
+    font-size: 20px;
+}
+.login{
+    margin-top: 155px;
+    margin-bottom: 120px;
+    padding: 19px;
+    border: 2px solid red;
+    border-radius: 7px;
+    width: 50%;
+    margin-left: 380px;
+      
+    color: black;
+}
+.login{
+    background-image: url('../image/nen-mau-kem.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.login .switchTab a{
+    text-decoration: none;
+}
+.formLogin .clickForm{
+    margin-top: 13px;
+}
+.formLogin .clickForm a{
+    text-decoration: none;
+}
+#forgotPassword{
+    float: right;
+    opacity: 0.7;
+}
+#forgotPassword{
+    opacity: 1;
+}
+
+/* register */
+table{
+    margin-top: 5px;
+}
+table p{
+    padding: 0px;
+    margin: 0px;
+    background-color: #66FF66;
+}
+.register{
+    font-size: 20px;
+}
+.register{
+    padding: 19px;
+    border: 2px solid red;
+    border-radius: 7px;
+    width: 50%;
+    margin-left: 380px;
+    background-image: radial-gradient(90deg, #FFFAF0, 	#79CDCD);
+}
+.register .switchTab a{
+    list-style: none;
+    text-decoration: none;
+}
+.register{
+    margin-top: 160px;
+    margin-bottom: 100px;  
+    color: black;
+}
+.register{
+    background-image: url('../image/nen-mau-kem.jpeg');
+    background-size: 100%;
+}
+input{
+    font-size: 14px;
+    margin-top: 7px;
+}
+input[type=text], input[type=email]{
+    width: 98%;
+    padding: 6px;
+    border: 1px solid #550000;
+}
+input[type=password]{
+    width: 98%;
+    padding: 6px;
+    border: 1px solid #550000;
+}
+input[type=date]{
+    width: 99%;
+    height: 28px;
+}
+input[type=radio]{
+    margin-left: 28px;
+}
+input[type=email]{
+    width: 98%;
+}
+#listArea{
+    width: 99.8%;
+}
+input[type=checkbox]{
+    width: 25px;
+    height: 15px;
+    padding: 3px;
+    border-right: 10px;
+}
+input:focus{
+    background-color: antiquewhite;
+}
+input:hover{
+    border: 2px solid crimson;
+    background-color: burlywood;
+}
+select{
+    margin-top: 7px;
+    width: 60%;
+    height: 70%;
+    padding: 3px;
+    border-right: 10px;
+    font-size: 20px;
+}
+select:hover{
+    background-color: antiquewhite;
+}
